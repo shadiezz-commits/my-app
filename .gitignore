@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.env
+dead_letter.json
