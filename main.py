@@ -5,6 +5,11 @@ import psycopg2
 from psycopg2.extras import execute_values 
 import re 
 
+# postgresql://postgres:pw@localhost:5433/legacy
+# postgresql://postgres:pw@localhost:5434/new
+# docker exec dst pg_isready -U postgres -d new
+# docker exec dst pg_isready -U postgres -d legacy
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

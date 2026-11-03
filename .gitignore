@@ -2,3 +2,11 @@ __pycache__/
 *.pyc
 .env
 dead_letter.json
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+
+

@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application
-COPY main.py .
+COPY main.py setup_tables.py ./
 
 # Run the script
 CMD ["python", "main.py"]
